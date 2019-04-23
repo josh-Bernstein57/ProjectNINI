@@ -10,7 +10,7 @@ private _altisArray = ["Land_Budova3"];
 private _tanoaArray = ["Land_House_Small_01_F"];
 private _spawnBuildings = [[["Altis", _altisArray], ["Tanoa", _tanoaArray]]] call TON_fnc_terrainSort;
 
-civ_spawn_1 = nearestObjects[getMarkerPos  "civ_spawn_1", _spawnBuildings,300];
+civ_spawn_1 = getMarkerPos  "civ_spawn_1"
 civ_spawn_2 = nearestObjects[getMarkerPos  "civ_spawn_2", _spawnBuildings,350];
 civ_spawn_3 = nearestObjects[getMarkerPos  "civ_spawn_3", _spawnBuildings,350];
 civ_spawn_4 = nearestObjects[getMarkerPos  "civ_spawn_4", _spawnBuildings,350];
